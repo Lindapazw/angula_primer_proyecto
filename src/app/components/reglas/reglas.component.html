@@ -1,28 +1,22 @@
 <div class="tituloPagina">
   {{ Titulo }}<small>{{ TituloAccionABMC[AccionABMC] }}</small>
+
+  <!-- Botones -->
+  <div class="row justify-content-center botones">
+  <button
+    type="button"
+    class="btn btn-primary"
+    (click)="Pagina = 1; Buscar()"
+  >
+    <i class="fa fa-search"> </i> Ver
+  </button>
+  <button type="button" class="btn btn-primary" (click)="Agregar()">
+    <i class="fa fa-plus"> </i>
+    Agregar
+  </button>
 </div>
 
-<!-- Formulario Filtro de busqueda, se ve cuando la accion es Listado(busqueda/listado)-->
-<form name="FormBusqueda" [formGroup]="FormBusqueda" *ngIf="AccionABMC == 'L'">
-  <div class="container-fluid">
-    <hr />
-
-    <!-- Botones -->
-    <div class="row justify-content-center botones">
-      <button
-        type="button"
-        class="btn btn-primary"
-        (click)="Pagina = 1; Buscar()"
-      >
-        <i class="fa fa-search"> </i> Buscar
-      </button>
-      <button type="button" class="btn btn-primary" (click)="Agregar()">
-        <i class="fa fa-plus"> </i>
-        Agregar
-      </button>
-    </div>
-  </div>
-</form>
+</div>
 
 <!-- Tabla de resutados de busqueda y Paginador-->
 <div id="divTablaResultados" *ngIf="AccionABMC == 'L' && Items?.length > 0">

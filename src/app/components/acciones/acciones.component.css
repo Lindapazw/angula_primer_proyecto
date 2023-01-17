@@ -1,0 +1,7 @@
+/* alinear item*/
+
+.row{
+  display: inline-block;
+  position: absolute;
+  right: 3rem;
+}

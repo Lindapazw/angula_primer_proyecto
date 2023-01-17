@@ -45,6 +45,8 @@
                     >Servidor de Correo</label
                   >
                 </div>
+
+
                 <!-- Email input -->
                 <div class="form-outline mb-4">
                   <input
@@ -56,9 +58,9 @@
                       'is-invalid':
                         (FormLogin.controls['userMail'].touched || submitted) &&
                         FormLogin.controls['userMail'].errors
-                    }"
-                    [(ngModel)]="UserMail"
-                  />
+                    }" [(ngModel)]="UserMail"  placeholder="Dirección de correo"/>
+
+
                   <label class="form-label" for="userMail"
                     >Dirección de Correo</label
                   >
@@ -96,7 +98,8 @@
                           submitted) &&
                         FormLogin.controls['userPassword'].errors
                     }"
-                    [(ngModel)]="UserPassword"
+                    [(ngModel)]="UserPassword" 
+                    placeholder="Contraseña"
                   />
                   <label class="form-label" for="userPassword"
                     >Contraseña</label

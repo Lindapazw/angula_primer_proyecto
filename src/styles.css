@@ -5,8 +5,7 @@ body {
 }
 
 .divBody {
-  background-color: white;
-  min-height: 68vh;
+  min-height: 100vh;
   padding: 2rem;
 }
 
@@ -29,7 +28,7 @@ h3 {
 }
 
 .tituloPagina {
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-weight: 500;
   color: #282c34;
   border-bottom-style: solid;
@@ -163,6 +162,20 @@ thead {
   border-color: #dee2e6;
 }
 
+
+/* card -- label */
+
+label:not([class^='custom-control']) {
+  background-color: #d7dfe7;
+  border-radius: 0.625em 0.2em 0rem 0.625em;
+  border-bottom: 1px solid #282c34;
+  margin-right: 0;
+  padding-left: 0;
+  margin-top: 1rem;
+  display: block;
+  height: 90%;
+}
+
 /* redes al pie de pagina */
 .redes {
   background-color: blue;
@@ -172,9 +185,16 @@ thead {
   border-radius: 1em;
 }
 
-/* pie de la pagina */
+/* footer */
+
 footer {
   padding: 1rem;
+  background: #343a40;
+  color: #fff;
+}
+
+footer a {
+  color: #fff;
 }
 /* 
 

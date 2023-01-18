@@ -191,6 +191,10 @@ footer {
   padding: 1.05rem;
   background: #343a40;
   color: #fff;
+
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 }
 
 footer a {

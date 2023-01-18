@@ -1,4 +1,6 @@
-.row{
+/* reglas */
+
+.row .boton-inline{
   display: inline-block;
   position: absolute;
   right: 3rem;

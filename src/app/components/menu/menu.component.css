@@ -3,3 +3,10 @@
 .nav__logo {
   height: 2rem;
 }
+
+/* vista */
+
+.vista {
+  height: 100%;
+  width: 100%;
+}

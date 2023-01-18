@@ -1,13 +1,13 @@
 /* globales */
-
 body {
   background-color: rgb(241, 243, 247);
 }
 
+
+/* 
 .divBody {
   min-height: 100vh;
-  padding: 2rem;
-}
+} */
 
 h3 {
   color: white;
@@ -188,7 +188,7 @@ label:not([class^='custom-control']) {
 /* footer */
 
 footer {
-  padding: 1rem;
+  padding: 1.05rem;
   background: #343a40;
   color: #fff;
 }

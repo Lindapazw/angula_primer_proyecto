@@ -1,7 +1,7 @@
 /* reglas */
 
-.row .boton-inline{
-  display: inline-block;
+.boton-inline{
+  display: inline-block !important;
   position: absolute;
   right: 3rem;
 }

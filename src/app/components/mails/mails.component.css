@@ -72,4 +72,8 @@
         font-weight: normal;
       }
 
-      
+      /* pantalla completa */
+
+      .pantalla {
+        max-height: 100vh;
+      }

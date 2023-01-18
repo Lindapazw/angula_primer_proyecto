@@ -1,7 +1,11 @@
 /* alinear item*/
 
-.boton-inline{
+.boton-inline {
   display: inline-block !important;
   position: absolute;
   right: 3rem;
+}
+
+.tituloPagina {
+  padding-bottom: .5rem;
 }

@@ -5,3 +5,9 @@
   position: absolute;
   right: 3rem;
 }
+
+/* linea por debajo de botones */
+
+.tituloPagina {
+  padding-bottom: .5rem;
+}

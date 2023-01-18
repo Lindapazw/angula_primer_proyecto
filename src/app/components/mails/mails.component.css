@@ -57,8 +57,7 @@
       color: #61dafb;
       }
     
-
-      /* titulo y subtitulo */
+      /* titulo ,  sub titulo */
       
       .header__titulo {
         text-transform: uppercase;
@@ -72,8 +71,9 @@
         font-weight: normal;
       }
 
-      /* pantalla completa */
-
-      .pantalla {
-        max-height: 100vh;
-      }
+        /* linea */
+        
+        .tituloPagina {
+          padding-bottom: .5rem;
+        }
+    

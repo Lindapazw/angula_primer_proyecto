@@ -1,9 +1,12 @@
 <div class="tituloPagina">
   {{ Titulo }}
 </div>
-<div class="containter-fluid">
-  <div class="row justify-content-center">
-    <div class="col-6 offset 3">
+
+<!-- elegir archivo  -->
+
+<div class="containter-fluid flex">
+  <div class="row justify-content-start">
+    <div class="col-4 offset 3">
       <input
         name="file"
         class="form-control"
@@ -11,14 +14,17 @@
         accept="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
         (change)="onChange($event)"
       />
-      <hr />
     </div>
-  </div>
-  <div class="row justify-content-center botones">
-    <div class="col-3 offset-2" *ngIf="file != null">
-      <button type="button" class="btn btn-primary" (click)="onUpload()">
-        Subir Lote
-      </button>
+
+
+<!-- subir archivo  -->
+
+    <div class="row justify-content-center botones">
+      <div class="subir-margin" *ngIf="file != null">
+        <button type="button" class="btn btn-primary" (click)="onUpload()">
+          Subir Lote
+        </button>
+      </div>
     </div>
   </div>
 </div>
